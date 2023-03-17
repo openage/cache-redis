@@ -1,0 +1,42 @@
+{
+  "name": "@open-age/cache-redis",
+  "version": "1.0.0",
+  "description": "cache using redis cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "publish": "npm publish --access public",
+    "lint": "eslint --fix *.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openage/cache-redis.git"
+  },
+  "keywords": [
+    "cache",
+    "redis",
+    "openage"
+  ],
+  "author": "Sunny Parkash <sunny.parkash@gmail.com> (https://github.com/sunnyparkash)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openage/cache-redis/issues"
+  },
+  "homepage": "https://github.com/openage/cache-redis#readme",
+  "peerDependencies": {
+    "config": "^1.30.0",
+    "redis": "2.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^10.2.0"
+  }
+}
